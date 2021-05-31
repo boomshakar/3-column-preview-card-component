@@ -126,24 +126,30 @@ body .contain .card .card-btn {
   padding: 1rem 2rem;
   border: 1px solid #f2f2f2;
   border-radius: 30px;
-  position: relative;
+  background: #f2f2f2;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-body .contain .card #card-btn1:hover {
-  border: 1px solid #f2f2f2;
-  background: #f2f2f2;
+body .contain .card #card-btn1 {
   color: #e38826;
 }
-body .contain .card #card-btn2:hover {
-  border: 1px solid #f2f2f2;
-  background: #f2f2f2;
+body .contain .card #card-btn1:hover {
+  background: #e38826;
+  color: #f2f2f2;
+}
+body .contain .card #card-btn2 {
   color: #006970;
 }
-body .contain .card #card-btn3:hover {
-  border: 1px solid #f2f2f2;
-  background: #f2f2f2;
+body .contain .card #card-btn2:hover {
+  background: #006970;
+  color: #f2f2f2;
+}
+body .contain .card #card-btn3 {
   color: #004241;
+}
+body .contain .card #card-btn3:hover {
+  background: #004241;
+  color: #f2f2f2;
 }
 body .contain .card:nth-child(1) {
   border-radius: 10px 0 0 10px;
