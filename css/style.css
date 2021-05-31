@@ -99,7 +99,7 @@
 body {
   padding: 11% 19.8%;
   background: #f2f2f2;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 body .contain {
