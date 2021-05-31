@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/boomshakar/3-column-preview-card-component)
-- Live Site URL: [Live site URL here](https://boomshakar.github.io/3-column-preview-card-component/)
+- Live Site URL: [Live site URL here](https://booms-3-column-card.netlify.app/)
 
 ### Built with
 
