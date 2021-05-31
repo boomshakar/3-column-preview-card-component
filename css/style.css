@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.font-bsd {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+
+.font-lexend {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.bg-bright {
+  background: #e38826;
+}
+
+.bg-dark {
+  background: #006970;
+}
+
+.bg-vdark {
+  background: #004241;
+}
+
+.main-hbb {
+  color: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 869px) {
+  body {
+    padding: 12% 8%;
+    width: 100%;
+  }
+  body .contain {
+    display: flex;
+    flex-direction: column;
+  }
+  body .contain #card1 {
+    padding: 10%;
+    border-radius: 10px 10px 0 0;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card1 h1 {
+    margin: 4% 0;
+  }
+  body .contain #card1 p {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card1 .card-btn {
+    margin-top: 10%;
+  }
+  body .contain #card2 {
+    padding: 10%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card2 h1 {
+    margin: 4% 0;
+  }
+  body .contain #card2 p {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card2 .card-btn {
+    margin-top: 10%;
+  }
+  body .contain #card3 {
+    padding: 10%;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 10%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card3 h1 {
+    margin: 4% 0;
+  }
+  body .contain #card3 p {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .contain #card3 .card-btn {
+    margin-top: 10%;
+  }
+}
+body {
+  padding: 11% 19.8%;
+  background: #f2f2f2;
+  width: 100%;
+}
+body .contain {
+  display: flex;
+}
+body .contain .card {
+  padding: 5.5%;
+  height: 530px;
+}
+body .contain .card .card-img {
+  font-size: 15px;
+}
+body .contain .card h1 {
+  margin: 17% 0;
+  font-size: 2.5rem;
+}
+body .contain .card p {
+  font-size: 15px;
+  width: 100%;
+  height: 50%;
+  line-height: 1.7;
+}
+body .contain .card .card-btn {
+  padding: 1rem 2rem;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+body .contain .card #card-btn1:hover {
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  color: #e38826;
+}
+body .contain .card #card-btn2:hover {
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  color: #006970;
+}
+body .contain .card #card-btn3:hover {
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  color: #004241;
+}
+body .contain .card:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+}
+body .contain .card:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+}
+body .attribution {
+  font-size: 11px;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  padding-top: 5%;
+}
+body .attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+body .attribution a:hover {
+  text-decoration: underline;
+}
